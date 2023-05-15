@@ -1,38 +1,134 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav-styles{
+  padding : 12px;
+  width : 100%;
+  background-color: rgb(84, 231, 226);
+  display: flex;
+  justify-content: flex-start;
+  gap :0.5rem;
+}
+.nav-buttons{
+  border: 2px solid rgb(255, 233, 233);
+  color: rgb(255, 255, 255);
+  padding : 12px;
+  border-radius : 5px;
+  background-color: inherit;
+}
+.nav-buttons:hover{
+  background-color: rgb(227, 206, 206);
+  border: none;
+}
+.btn-view:hover{
+ background-color: yellowgreen;
+ color : white;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+footer{
+
+  padding: 17px;
+  font-size: larger;
+  font-weight: bolder;
+  width : 100%;
+  background-color: rgb(156, 240, 117);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+.btn{
+  padding: 10px;
+  margin : 5px;
+  border : none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size : 12px;
+}
+.btn-edit:hover{
+  background-color: blueviolet;
+}
+
+.btn-delete:hover{
+  background-color: crimson;
+  color : white;
+ }
+ .childred{
+  height : 90vh;
+  margin : 1vh;
+  display : flex;
+  flex-direction: column;
+  justify-content: space-between;
+ }
+
+ .stu-com{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: rgb(143, 236, 128);
+  margin: 5px;
+  padding: 5px;
+  gap: 1rem;
+}
+ 
+.stu-com2{
+ 
+    background-color: rgb(166, 87, 219);
+    border-radius : 10px;
+    width : 350px;
+    height : 550px;
+}
+
+.tea-com{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: rgb(143, 236, 128);
+  margin: 5px;
+  padding: 5px;
+  gap: 1rem;
+ }
+
+ .tea-com2{
+  background-color: rgb(166, 87, 219);
+  border-radius : 10px;
+  width : 350px;
+  height : 550px;
+ }
+
+.detail-card{
+  background-color: rgb(176, 239, 213);
+  padding: 10px;
+  margin: 10px;
+  border-radius: 20px;
+}
+
+.detail-continar{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.btn-detail{
+  border-radius: 10px;
+  color: rgb(86, 197, 216);
+  background-color: green;
+}
+.title{
+  background-color: rgb(125, 222, 28);
+  color: #030303;
+  font-size: 35px;
+  font-weight: 500;
+}
+
+
+.text-areas{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap : 0.5rem;
+  margin : 10px;
+}
+.text-areas-t{
+  display: flex;
+  flex-direction: column;
+  gap : 0.5rem;
+  margin : 10px;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
